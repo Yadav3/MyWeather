@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/cityWeatherListFragment">
+
+    <fragment
+        android:id="@+id/cityWeatherListFragment"
+        android:name="com.my.weather.ui.list.CityWeatherListFragment"
+        android:label="CityWeatherListFragment">
+
+        <action
+            android:id="@+id/action_cityWeatherListFragment_to_cityWeatherDetailsFragment"
+            app:destination="@id/cityWeatherDetailsFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/cityWeatherDetailsFragment"
+        android:name="com.my.weather.ui.details.CityWeatherDetailsFragment"
+        android:label="CityWeatherDetailsFragment">
+
+        <argument
+            android:name="cityId"
+            android:defaultValue="-1"
+            app:argType="integer" />
+
+    </fragment>
+
+</navigation>

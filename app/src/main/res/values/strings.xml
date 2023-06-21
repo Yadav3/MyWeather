@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Weather App</string>
+    <string name="weather_icon_content_description">An icon that describe the weather condition</string>
+    <string name="city_name_country_name">%s, %s</string>
+    <string name="search">Search</string>
+    <string name="unavailable_weather_condition">No weather condition available</string>
+    <string name="wind">Wind</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="temp_format">%d°</string>
+    <string name="wind_speed_format">%d km/h</string>
+    <string name="humidity_format">%d %%</string>
+    <string name="pressure_format">%d mPh</string>
+</resources>
